@@ -17,10 +17,10 @@ and "Microcontroller :" is where the uC responds.
 here on both the sides ';' is the string termination character.
 
 to read the command is:
-              "R-<address in RAM in decimal number>;"  (without quotes)
+              "R-{address in RAM in decimal number};"  (without quotes)
               
 to write the command is:
-              "W-<data to be written>-<address where you want to write data>;"        (without quotes)
+              "W-{data to be written}-{address where you want to write data};"        (without quotes)
               
 Example :
   to read from address 11322;
@@ -34,3 +34,6 @@ Future Applications: (in any project, not as in future technical invention)
   2. to check the working condition of old days RAM ic chips.
   3. to load machine code in RAM of your self made Processor.
   4. This setup without RAM can be used to read and/or Program microcontrollers using parallel port but in machine code
+  
+  
+  youtube link :: https://www.youtube.com/watch?v=psKOW52DNus&t=3s
